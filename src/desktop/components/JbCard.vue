@@ -4,7 +4,7 @@
       <span>{{ campaign.name }}</span>
     </div>
     <div class="jb-card__content">
-      <jb-image :src="campaign.image"></jb-image>
+      <jb-image class="image" :src="campaign.image"></jb-image>
       <div>{{ campaign.description }}</div>
     </div>
   </el-card>

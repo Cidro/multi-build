@@ -1,9 +1,8 @@
 .jb-card {
-  margin: $jb-margin;
-  padding: $jb-padding;
   background-color: #bbb;
   &__header {
     background-color: #ccc;
+    padding: $jb-padding;
   }
   &__content {
     font-size: 22px;
@@ -11,6 +10,8 @@
 
   /* ELEMENT SPECIFICS */
   .el-card__header {
+    padding: 0;
+    margin: 0;
     background-color: #ccc;
   }
 }

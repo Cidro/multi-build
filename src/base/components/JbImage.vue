@@ -1,7 +1,5 @@
 <template>
-  <div class="jb-image">
-    <img :src="src" :alt="alt" />
-  </div>
+  <img :src="src" :alt="alt" class="jb-image" />
 </template>
 
 <script>
