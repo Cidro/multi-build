@@ -4,7 +4,7 @@
   </div>
 </template>
 <script>
-import JbCard from '@desktop/components/JbCard';
+import JbCard from '@/desktop/components/JbCard';
 export default {
   name: 'CampaignDiscovery',
   props: {

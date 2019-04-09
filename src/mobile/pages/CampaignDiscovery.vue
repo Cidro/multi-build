@@ -10,7 +10,7 @@
   </f7-page>
 </template>
 <script>
-import JbCard from '@mobile/components/JbCard';
+import JbCard from '@/mobile/components/JbCard';
 export default {
   name: 'CampaignDiscovery',
   props: {

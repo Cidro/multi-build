@@ -1,6 +1,6 @@
 <template>
-  <el-card>
-    <div slot="header" class="clearfix">
+  <el-card class="jb-card">
+    <div slot="header" class="clearfix jb-card__header">
       <span>{{ campaign.name }}</span>
     </div>
     <div>{{ campaign.description }}</div>

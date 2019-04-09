@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import CampaignDiscovery from '@mobile/pages/CampaignDiscovery';
+import CampaignDiscovery from '@/mobile/pages/CampaignDiscovery';
 import Campaigns from '@/assets/data/campaigns';
 
 export default {
