@@ -1,6 +1,16 @@
 .jb-card {
+  margin: $jb-margin;
+  padding: $jb-padding;
   background-color: #bbb;
   &__header {
+    background-color: #ccc;
+  }
+  &__content {
+    font-size: 22px;
+  }
+
+  /* ELEMENT SPECIFICS */
+  .el-card__header {
     background-color: #ccc;
   }
 }
